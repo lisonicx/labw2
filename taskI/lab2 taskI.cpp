@@ -2,8 +2,8 @@
 
 void taskI(std::vector<int> vec)
 {
-    std::stack<int> stack; // въезд в тупик
-    std::queue<int> queue; // описывает тип действия (въехать в тупик или выехать на путь 2)
+    std::stack<int> stack;
+    std::queue<int> queue;
     int count = 1;
     for (int i = 0; i < vec.size(); i++)
     {
